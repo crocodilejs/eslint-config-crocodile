@@ -1,0 +1,43 @@
+{
+  "name": "eslint-config-crocodile",
+  "description": "This is an opinionated ESLint configuration for CrocodileJS",
+  "version": "1.0.0",
+  "author": "Nick Baugh <niftylettuce@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/crocodilejs/eslint-config-crocodile/issues"
+  },
+  "dependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.1.1",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-mocha": "^4.2.0"
+  },
+  "homepage": "https://github.com/crocodilejs/eslint-config-crocodile",
+  "keywords": [
+    "config",
+    "es6",
+    "es7",
+    "eslint",
+    "eslint-config-crocodile",
+    "eslintconfig",
+    "glazed",
+    "crocodilejs",
+    "jshint",
+    "koa",
+    "lint",
+    "styleguide"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "^3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crocodilejs/eslint-config-crocodile"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  }
+}
